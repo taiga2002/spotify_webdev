@@ -34,6 +34,7 @@ useEffect(() => {
                 getOAuthToken: (cb: any) => {
                     cb(props.token);
                 },
+                
                 volume: 0.5
             });
 
